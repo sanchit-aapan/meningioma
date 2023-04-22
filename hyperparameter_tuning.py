@@ -7,7 +7,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 
-# Import data into a Pandas dataframe
+# Import data with selected features into a Pandas dataframe
 data = pd.read_csv("meningioma_data.csv")
 
 

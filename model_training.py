@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 
 
-# Import data into a Pandas dataframe
+# Import data with selected features into a Pandas dataframe
 data = pd.read_csv("meningioma_data.csv")
 
 
